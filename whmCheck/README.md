@@ -1,6 +1,6 @@
 # whmCheck
 
-This program returns all domains which are pointing elsewhere and not to their own server. Excludes any domains using Cloudflare.
+This program returns all non-supended domains which are pointing elsewhere and not to their own server. Excludes any domains using Cloudflare.
 
 ## Requirements
 
