@@ -5,7 +5,7 @@ import functions
 for server in config.SERVERS:
     #Retreive ServerIP
     SERVERIP = functions.DNSCheck(config.SERVERS[server].whmURL)['aRecords'][0]
-    print(server)
+    print(f'\n\n{server}')
     for domain in config.SERVERS[server].domains:
         #Run DNSCheck() on domain
         domainINFO = functions.DNSCheck(domain)
