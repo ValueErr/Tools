@@ -1,4 +1,3 @@
-from xml import dom
 import config
 import functions
 import csv
@@ -21,7 +20,7 @@ for server in config.SERVERS:
         else:
             print(domain, 'No Records Found')
 
-with open ('data.csv', 'w') as f:
+with open ('data.csv', 'w', newline='') as f:
 
     fieldnames = ['server', 'domain']
 
