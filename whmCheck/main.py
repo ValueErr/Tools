@@ -1,4 +1,3 @@
-from xml import dom
 import config
 import functions
 import csv
